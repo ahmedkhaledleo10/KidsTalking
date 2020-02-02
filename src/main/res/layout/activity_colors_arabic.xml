@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ColorsArabicActivity"
+    android:background="@drawable/back">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="70dp"
+        android:id="@+id/viewpagerstory">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/kidstitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kids Talking"
+            android:textSize="30sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/kidsdesc"
+            android:layout_below="@id/kidstitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الالوان"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="130dp"
+            android:textSize="35sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/imglearn"
+            android:layout_width="wrap_content"
+            android:layout_height="140dp"
+            android:src="@drawable/learn"
+            android:layout_marginLeft="300dp"
+            />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/imgnext"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_right_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="5dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_left_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="100dp"
+        android:layout_marginStart="5dp"
+        />
+
+    <com.google.android.material.tabs.TabLayout
+        app:tabBackground="@drawable/indicator_selector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/Tab_indicator"
+        android:layout_marginStart="90dp"
+
+        >
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#202F65 </color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="cardcolor">#D3DAE0</color>
+
+
+
+    <!--colors for button style-->
+
+    <color name="gradiant_start_color">#4c84ff</color>
+    <color name="gradiant_end_color">#1fa3fe</color>
+
+    <!--colors for tab and screen text style-->
+
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000</color>
+    <color name="intro_description_color">#656565</color>
+
+
+
+
+
+
+
+
+
+</resources>
